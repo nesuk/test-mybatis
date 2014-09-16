@@ -1,4 +1,4 @@
-package com.yoloho.mapper;
+package com.abcwork.mapper;
 
 import java.util.List;
 
