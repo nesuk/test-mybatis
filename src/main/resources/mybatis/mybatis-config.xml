@@ -7,6 +7,7 @@
 	<!-- 给映射类定义别名 -->
 	<typeAliases>
 		<typeAlias alias="User" type="com.abcwork.entity.User" />
+		<typeAlias alias="Token" type="com.abcwork.entity.DeviceToken" />
 	</typeAliases>
 
 
@@ -26,6 +27,7 @@
 	<!-- 实体映射文件 -->
 	<mappers>
 		<mapper resource="com/abcwork/mapper/UserMapper.xml" />
+		<mapper resource="com/abcwork/mapper/DeviceTokenMapper.xml" />
 	</mappers>
 
 </configuration>
